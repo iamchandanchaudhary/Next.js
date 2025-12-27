@@ -1,11 +1,11 @@
 import React from 'react'
 
-function page() {
+function ContactPage() {
   return (
-    <div>
-      <h1 className='text-red-800'>This is Contact Page</h1>
+    <div className='bg-pink-400'>
+      <h1 className=''>This is Contact Page</h1>
     </div>
   )
 }
 
-export default page
+export default ContactPage;
