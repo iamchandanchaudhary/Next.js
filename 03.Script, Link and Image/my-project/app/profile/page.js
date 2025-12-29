@@ -1,4 +1,5 @@
 import React from "react";
+import Script from "next/script";
 
 export const metadata = {
   title: "Profile Page",
@@ -8,6 +9,9 @@ export const metadata = {
 export default function Profile() {
   return (
     <div className="h-[85vh] px-4 py-3">
+      <Script>
+        {` alert("Welcome to Profile Page"); `}
+      </Script>
       <p>Hello I'm Profile Page</p>
     </div>
   );
