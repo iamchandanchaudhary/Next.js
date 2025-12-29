@@ -1,5 +1,5 @@
 import React from "react";
-import Script from "next/script";
+import Script from "next/script"; // => Script Component help us to write javascript language in the next.js 
 
 export const metadata = {
   title: "Profile Page",
