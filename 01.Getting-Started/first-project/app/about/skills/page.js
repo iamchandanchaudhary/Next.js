@@ -1,4 +1,9 @@
-import React from 'react'
+import React from 'react';
+
+export const metadata = {
+  title: "Skill Page | First Project",
+  description: "First Next.js Project",
+};
 
 function SkillsPage() {
   return (

@@ -13,8 +13,12 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+// Using Custom Metadata for different title for different page
 export const metadata = {
-  title: "Script, Link & Image Components",
+  title: {
+    default: "Script, Link & Image Components",
+    template: "%s | Script, Link & Image Components"
+  },
   description: "Describes Script, Link & Image Components",
 };
 

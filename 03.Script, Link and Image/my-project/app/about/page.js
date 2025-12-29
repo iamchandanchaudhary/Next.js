@@ -1,4 +1,9 @@
-import Image from "next/image";
+import React from "react";
+
+export const metadata = {
+  title: "About Page",
+  description: "Next.js Project",
+};
 
 export default function About() {
   return (
