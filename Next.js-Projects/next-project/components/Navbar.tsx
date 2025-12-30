@@ -14,7 +14,7 @@ function Navbar({ className }: { className?: string }) {
       <Menu setActive={setActive}>
         <Link href={"/"}>
           <MenuItem setActive={setActive} active={active} item="Home">
-            
+
           </MenuItem>
         </Link>
 
@@ -32,11 +32,16 @@ function Navbar({ className }: { className?: string }) {
         <Link href={"/contact"}>
           <MenuItem setActive={setActive} active={active} item="Contact">
             <div className="flex flex-col space-y-4 text-sm">
-              <HoveredLink href="/call">Call</HoveredLink>
-              <HoveredLink href="/email">Email</HoveredLink>
+              <HoveredLink href="/call">Through a Call</HoveredLink>
+              <HoveredLink href="/email">Through a Email</HoveredLink>
             </div>
           </MenuItem>
         </Link>
+
+        <button className="border text-sm font-medium relative border-neutral-200 dark:border-white/[0.2] text-black dark:text-white px-4 py-2 rounded-full">
+          <span>Login</span>
+          <span className="absolute inset-x-0 w-1/2 mx-auto -bottom-px bg-gradient-to-r from-transparent via-blue-500 to-transparent  h-px" />
+        </button>
 
       </Menu>
 
