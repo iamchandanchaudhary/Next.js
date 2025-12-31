@@ -12,6 +12,7 @@
                 "Work & Energy",
                 "Momentum"
             ],
+            "bestseller": true,
             "durationWeeks": 16,
             "level": "Beginner"
         },
@@ -26,6 +27,7 @@
                 "Magnetic Fields",
                 "Maxwell's Equations"
             ],
+            "bestseller": true,
             "durationWeeks": 14,
             "level": "Intermediate"
         },
@@ -40,6 +42,7 @@
                 "Schrodinger Equation",
                 "Operators"
             ],
+            "bestseller": false,
             "durationWeeks": 18,
             "level": "Advanced"
         },
@@ -54,6 +57,7 @@
                 "Entropy",
                 "Heat Engines"
             ],
+            "bestseller": true,
             "durationWeeks": 15,
             "level": "Intermediate"
         },
@@ -68,6 +72,7 @@
                 "Semiconductors",
                 "Band Theory"
             ],
+            "bestseller": true,
             "durationWeeks": 14,
             "level": "Advanced"
         },
@@ -83,8 +88,86 @@
                 "Diffraction",
                 "Polarization"
             ],
+            "bestseller": false,
             "durationWeeks": 12,
             "level": "Beginner"
+        },
+        {
+            "courseId": "PHY207",
+            "courseName": "Mathematical Physics",
+            "instructor": "Dr. Vikram Joshi",
+            "credits": 4,
+            "semester": "Semester 3",
+            "topics": [
+                "Vector Calculus",
+                "Linear Algebra",
+                "Differential Equations"
+            ],
+            "bestseller": true,
+            "durationWeeks": 16,
+            "level": "Intermediate"
+        },
+        {
+            "courseId": "PHY310",
+            "courseName": "Nuclear Physics",
+            "instructor": "Prof. Rakesh Malhotra",
+            "credits": 3,
+            "semester": "Semester 6",
+            "topics": [
+                "Radioactivity",
+                "Nuclear Reactions",
+                "Nuclear Models"
+            ],
+            "bestseller": false,
+            "durationWeeks": 14,
+            "level": "Advanced"
+        },
+        {
+            "courseId": "PHY112",
+            "courseName": "Basic Electronics for Physicists",
+            "instructor": "Dr. Kavita Rao",
+            "credits": 2,
+            "semester": "Semester 2",
+            "topics": [
+                "Diodes",
+                "Transistors",
+                "Amplifiers",
+                "Logic Gates"
+            ],
+            "bestseller": false,
+            "durationWeeks": 12,
+            "level": "Beginner"
+        },
+        {
+            "courseId": "PHY321",
+            "courseName": "Astrophysics",
+            "instructor": "Prof. Sandeep Kulkarni",
+            "credits": 3,
+            "semester": "Semester 7",
+            "topics": [
+                "Stars",
+                "Galaxies",
+                "Cosmology",
+                "Black Holes"
+            ],
+            "bestseller": true,
+            "durationWeeks": 15,
+            "level": "Advanced"
+        },
+        {
+            "courseId": "PHY215",
+            "courseName": "Computational Physics",
+            "instructor": "Dr. Nitin Agarwal",
+            "credits": 3,
+            "semester": "Semester 4",
+            "topics": [
+                "Numerical Methods",
+                "Simulations",
+                "Python for Physics"
+            ],
+            "bestseller": false,
+            "durationWeeks": 14,
+            "level": "Intermediate"
         }
     ]
 }
