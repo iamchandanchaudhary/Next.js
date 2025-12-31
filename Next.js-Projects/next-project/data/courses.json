@@ -1,0 +1,90 @@
+{
+    "courses": [
+        {
+            "courseId": "PHY101",
+            "courseName": "Classical Mechanics",
+            "instructor": "Dr. Anil Sharma",
+            "credits": 4,
+            "semester": "Semester 1",
+            "topics": [
+                "Kinematics",
+                "Newton's Laws",
+                "Work & Energy",
+                "Momentum"
+            ],
+            "durationWeeks": 16,
+            "level": "Beginner"
+        },
+        {
+            "courseId": "PHY202",
+            "courseName": "Electromagnetism",
+            "instructor": "Prof. Neha Verma",
+            "credits": 3,
+            "semester": "Semester 3",
+            "topics": [
+                "Electric Fields",
+                "Magnetic Fields",
+                "Maxwell's Equations"
+            ],
+            "durationWeeks": 14,
+            "level": "Intermediate"
+        },
+        {
+            "courseId": "PHY303",
+            "courseName": "Quantum Mechanics",
+            "instructor": "Dr. Rahul Mehta",
+            "credits": 4,
+            "semester": "Semester 5",
+            "topics": [
+                "Wave Function",
+                "Schrodinger Equation",
+                "Operators"
+            ],
+            "durationWeeks": 18,
+            "level": "Advanced"
+        },
+        {
+            "courseId": "PHY204",
+            "courseName": "Thermodynamics",
+            "instructor": "Dr. Pooja Singh",
+            "credits": 3,
+            "semester": "Semester 2",
+            "topics": [
+                "Laws of Thermodynamics",
+                "Entropy",
+                "Heat Engines"
+            ],
+            "durationWeeks": 15,
+            "level": "Intermediate"
+        },
+        {
+            "courseId": "PHY305",
+            "courseName": "Solid State Physics",
+            "instructor": "Prof. Amit Kumar",
+            "credits": 3,
+            "semester": "Semester 6",
+            "topics": [
+                "Crystal Structure",
+                "Semiconductors",
+                "Band Theory"
+            ],
+            "durationWeeks": 14,
+            "level": "Advanced"
+        },
+        {
+            "courseId": "PHY106",
+            "courseName": "Waves and Optics",
+            "instructor": "Dr. Sneha Patel",
+            "credits": 2,
+            "semester": "Semester 1",
+            "topics": [
+                "Wave Motion",
+                "Interference",
+                "Diffraction",
+                "Polarization"
+            ],
+            "durationWeeks": 12,
+            "level": "Beginner"
+        }
+    ]
+}
