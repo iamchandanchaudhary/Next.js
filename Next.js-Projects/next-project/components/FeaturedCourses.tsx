@@ -35,7 +35,7 @@ function FeaturedCourses() {
                             <div key={course.courseId} className='flex justify-center'>
                                 <BackgroundGradient className="flex flex-col h-full overflow-hidden rounded-[22px] max-w-sm p-4 sm:p-10 bg-white dark:bg-zinc-900">
                                     <img
-                                        src={`https://images.unsplash.com/photo-1526779259212-939e64788e3c?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZnJlZSUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D`}
+                                        src={`https://images.pexels.com/photos/60582/newton-s-cradle-balls-sphere-action-60582.jpeg?cs=srgb&dl=pexels-pixabay-60582.jpg&fm=jpg`}
                                         alt="jordans"
                                         height="400"
                                         width="400"
