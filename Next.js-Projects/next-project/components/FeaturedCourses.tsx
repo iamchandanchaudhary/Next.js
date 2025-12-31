@@ -7,18 +7,16 @@ import Link from 'next/link';
 interface Course {
     courseId: string,
     courseName: string,
-    instructor: string,
-    credits: number,
-    semester: string,
+    courseDescription: string,
     topics: string[],
     bestseller: boolean,
-    durationWeeks: number,
+    durationWeek: number,
     level: string
 }
 
 function FeaturedCourses() {
 
-    courseData.courses.filter((course:Course) => course.bestseller);
+    const featuredCourses = courseData.courses.filter((course: Course) => course.bestseller);
 
     return (
         <div className='py-12 bg-gray-900'>
@@ -31,30 +29,44 @@ function FeaturedCourses() {
 
             <div className='mt-10'>
                 <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-center'>
-                    <BackgroundGradient className="rounded-[22px] max-w-sm p-4 sm:p-10 bg-white dark:bg-zinc-900">
-                        <img
-                            src={`https://images.unsplash.com/photo-1526779259212-939e64788e3c?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZnJlZSUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D`}
-                            alt="jordans"
-                            height="400"
-                            width="400"
-                            className="object-contain"
-                        />
-                        <p className="text-base sm:text-xl text-black mt-4 mb-2 dark:text-neutral-200">
-                            Air Jordan 4 Retro Reimagined
-                        </p>
 
-                        <p className="text-sm text-neutral-600 dark:text-neutral-400">
-                            The Air Jordan 4 Retro Reimagined Bred will release on Saturday,
-                            February 17, 2024. Your best opportunity to get these right now is by
-                            entering raffles and waiting for the official releases.
-                        </p>
-                        <button className="rounded-full pl-4 pr-1 py-1 text-white flex items-center space-x-1 bg-black mt-4 text-xs font-bold dark:bg-zinc-800">
-                            <span>Buy now </span>
-                            <span className="bg-zinc-700 rounded-full text-[0.6rem] px-2 py-0 text-white">
-                                $100
-                            </span>
-                        </button>
-                    </BackgroundGradient>
+                    {
+                        featuredCourses.map((course: Course) => (
+                            <div key={course.courseId} className='flex justify-center'>
+                                <BackgroundGradient className="flex flex-col h-full overflow-hidden rounded-[22px] max-w-sm p-4 sm:p-10 bg-white dark:bg-zinc-900">
+                                    <img
+                                        src={`https://images.unsplash.com/photo-1526779259212-939e64788e3c?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZnJlZSUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D`}
+                                        alt="jordans"
+                                        height="400"
+                                        width="400"
+                                        className="object-contain"
+                                    />
+                                    <p className="text-base sm:text-xl text-black mt-4 mb-2 dark:text-neutral-200">
+                                        {course.courseName}
+                                    </p>
+
+                                    <p className="text-sm text-neutral-600 dark:text-neutral-400">
+                                        {course.courseDescription}
+                                    </p>
+
+                                    <p className="text-sm text-neutral-600 dark:text-neutral-400 mt-1">
+                                        <span className='text-white mr-1 font-semibold'>Duration:</span>{course.durationWeek} Week
+                                    </p>
+
+                                    <Link
+                                        href={`/courses/${course.courseId}`}
+                                        className="w-max rounded-full px-4 py-2 text-white flex items-center space-x-1 bg-black mt-4 text-xs font-bold dark:bg-zinc-800"
+                                    >
+                                        <span>Learn More</span>
+                                        {/* <span className="bg-zinc-700 rounded-full text-[0.6rem] px-2 py-0 text-white">
+                                                Rs 100
+                                            </span> */}
+                                    </Link>
+                                    
+                                </BackgroundGradient>
+                            </div>
+                        ))
+                    }
                 </div>
             </div>
 

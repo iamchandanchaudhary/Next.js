@@ -3,170 +3,134 @@
         {
             "courseId": "PHY101",
             "courseName": "Classical Mechanics",
-            "instructor": "Dr. Anil Sharma",
-            "credits": 4,
-            "semester": "Semester 1",
+            "courseDescription": "Learn the fundamentals of motion, force, energy, and Newtonian mechanics.",
             "topics": [
                 "Kinematics",
-                "Newton's Laws",
+                "Laws of Motion",
                 "Work & Energy",
                 "Momentum"
             ],
             "bestseller": true,
-            "durationWeeks": 16,
+            "durationWeek": 8,
             "level": "Beginner"
         },
         {
-            "courseId": "PHY202",
+            "courseId": "PHY102",
             "courseName": "Electromagnetism",
-            "instructor": "Prof. Neha Verma",
-            "credits": 3,
-            "semester": "Semester 3",
+            "courseDescription": "Understand electric fields, magnetic fields, and electromagnetic waves.",
             "topics": [
+                "Coulomb's Law",
                 "Electric Fields",
-                "Magnetic Fields",
-                "Maxwell's Equations"
+                "Magnetism",
+                "Maxwell Equations"
             ],
             "bestseller": true,
-            "durationWeeks": 14,
+            "durationWeek": 10,
             "level": "Intermediate"
         },
         {
-            "courseId": "PHY303",
-            "courseName": "Quantum Mechanics",
-            "instructor": "Dr. Rahul Mehta",
-            "credits": 4,
-            "semester": "Semester 5",
-            "topics": [
-                "Wave Function",
-                "Schrodinger Equation",
-                "Operators"
-            ],
-            "bestseller": false,
-            "durationWeeks": 18,
-            "level": "Advanced"
-        },
-        {
-            "courseId": "PHY204",
+            "courseId": "PHY103",
             "courseName": "Thermodynamics",
-            "instructor": "Dr. Pooja Singh",
-            "credits": 3,
-            "semester": "Semester 2",
+            "courseDescription": "Study heat, work, temperature, and the laws of thermodynamics.",
             "topics": [
                 "Laws of Thermodynamics",
                 "Entropy",
-                "Heat Engines"
+                "Heat Transfer"
             ],
-            "bestseller": true,
-            "durationWeeks": 15,
+            "bestseller": false,
+            "durationWeek": 7,
             "level": "Intermediate"
         },
         {
-            "courseId": "PHY305",
-            "courseName": "Solid State Physics",
-            "instructor": "Prof. Amit Kumar",
-            "credits": 3,
-            "semester": "Semester 6",
+            "courseId": "PHY104",
+            "courseName": "Waves and Oscillations",
+            "courseDescription": "Explore wave motion, sound waves, and harmonic oscillators.",
             "topics": [
-                "Crystal Structure",
-                "Semiconductors",
-                "Band Theory"
+                "Simple Harmonic Motion",
+                "Wave Equation",
+                "Sound Waves"
+            ],
+            "bestseller": false,
+            "durationWeek": 6,
+            "level": "Beginner"
+        },
+        {
+            "courseId": "PHY105",
+            "courseName": "Optics",
+            "courseDescription": "Learn about light behavior, lenses, mirrors, and optical instruments.",
+            "topics": [
+                "Reflection",
+                "Refraction",
+                "Interference",
+                "Diffraction"
             ],
             "bestseller": true,
-            "durationWeeks": 14,
-            "level": "Advanced"
+            "durationWeek": 6,
+            "level": "Beginner"
         },
         {
             "courseId": "PHY106",
-            "courseName": "Waves and Optics",
-            "instructor": "Dr. Sneha Patel",
-            "credits": 2,
-            "semester": "Semester 1",
+            "courseName": "Modern Physics",
+            "courseDescription": "Introduction to relativity, quantum mechanics, and atomic structure.",
             "topics": [
-                "Wave Motion",
-                "Interference",
-                "Diffraction",
-                "Polarization"
-            ],
-            "bestseller": false,
-            "durationWeeks": 12,
-            "level": "Beginner"
-        },
-        {
-            "courseId": "PHY207",
-            "courseName": "Mathematical Physics",
-            "instructor": "Dr. Vikram Joshi",
-            "credits": 4,
-            "semester": "Semester 3",
-            "topics": [
-                "Vector Calculus",
-                "Linear Algebra",
-                "Differential Equations"
+                "Photoelectric Effect",
+                "Relativity",
+                "Atomic Models"
             ],
             "bestseller": true,
-            "durationWeeks": 16,
+            "durationWeek": 9,
+            "level": "Advanced"
+        },
+        {
+            "courseId": "PHY107",
+            "courseName": "Quantum Mechanics",
+            "courseDescription": "Deep dive into quantum theory and particle behavior.",
+            "topics": [
+                "Wave Function",
+                "Schrödinger Equation",
+                "Operators"
+            ],
+            "bestseller": false,
+            "durationWeek": 12,
+            "level": "Advanced"
+        },
+        {
+            "courseId": "PHY108",
+            "courseName": "Nuclear Physics",
+            "courseDescription": "Study nuclear structure, radioactivity, and nuclear reactions.",
+            "topics": [
+                "Radioactivity",
+                "Nuclear Fission",
+                "Nuclear Fusion"
+            ],
+            "bestseller": false,
+            "durationWeek": 8,
+            "level": "Advanced"
+        },
+        {
+            "courseId": "PHY109",
+            "courseName": "Solid State Physics",
+            "courseDescription": "Understand crystal structures and electronic properties of solids.",
+            "topics": [
+                "Crystal Lattices",
+                "Band Theory",
+                "Semiconductors"
+            ],
+            "bestseller": false,
+            "durationWeek": 10,
             "level": "Intermediate"
         },
         {
-            "courseId": "PHY310",
-            "courseName": "Nuclear Physics",
-            "instructor": "Prof. Rakesh Malhotra",
-            "credits": 3,
-            "semester": "Semester 6",
-            "topics": [
-                "Radioactivity",
-                "Nuclear Reactions",
-                "Nuclear Models"
-            ],
-            "bestseller": false,
-            "durationWeeks": 14,
-            "level": "Advanced"
-        },
-        {
-            "courseId": "PHY112",
-            "courseName": "Basic Electronics for Physicists",
-            "instructor": "Dr. Kavita Rao",
-            "credits": 2,
-            "semester": "Semester 2",
-            "topics": [
-                "Diodes",
-                "Transistors",
-                "Amplifiers",
-                "Logic Gates"
-            ],
-            "bestseller": false,
-            "durationWeeks": 12,
-            "level": "Beginner"
-        },
-        {
-            "courseId": "PHY321",
+            "courseId": "PHY110",
             "courseName": "Astrophysics",
-            "instructor": "Prof. Sandeep Kulkarni",
-            "credits": 3,
-            "semester": "Semester 7",
+            "courseDescription": "Explore stars, galaxies, black holes, and the universe.",
             "topics": [
-                "Stars",
+                "Stellar Evolution",
                 "Galaxies",
-                "Cosmology",
-                "Black Holes"
+                "Cosmology"
             ],
             "bestseller": true,
-            "durationWeeks": 15,
-            "level": "Advanced"
-        },
-        {
-            "courseId": "PHY215",
-            "courseName": "Computational Physics",
-            "instructor": "Dr. Nitin Agarwal",
-            "credits": 3,
-            "semester": "Semester 4",
-            "topics": [
-                "Numerical Methods",
-                "Simulations",
-                "Python for Physics"
-            ],
-            "bestseller": false,
-            "durationWeeks": 14,
+            "durationWeek": 11,
             "level": "Intermediate"
         }
     ]
