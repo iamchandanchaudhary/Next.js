@@ -4,7 +4,7 @@ import React from 'react';
 
 function Footer() {
     return (
-        <footer className='bg-black text-gray-400 py-12'>
+        <footer className='bg-black text-gray-400 py-8'>
 
             <div className='max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12 px-4 sm:px-6 '>
 
@@ -40,11 +40,12 @@ function Footer() {
                         <li>Lucknow, India</li>
                         <li>Email: info@courses.com</li>
                         <li>Phon: +91 92121212</li>
-                        <li></li>
                     </ul>
                 </div>
 
             </div>
+
+            <p className='text-center pt-8'>© 2025 Physics Course. All rights reserved.</p>
 
         </footer>
     )
