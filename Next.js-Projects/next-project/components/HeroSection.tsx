@@ -4,7 +4,8 @@ import Link from 'next/link';
 import { cn } from "@/lib/utils";
 import { Spotlight } from './ui/Spotlight';
 import { Button } from "./ui/moving-border";
-import { BackgroundRippleEffect } from "@/components/ui/background-ripple-effect";
+
+import { Boxes } from "./ui/background-boxes";
 
 function HeroSection() {
     return (
@@ -14,7 +15,8 @@ function HeroSection() {
                 className="-top-40 left-0 md:-top-20 md:left-60"
                 fill="#009689"
             />
-            <BackgroundRippleEffect />
+
+            <Boxes />
 
             <div className='p-4 relative z-10 w-full text-center flex flex-col gap-5 mt-28'>
                 <h1 className='mt-20 md:mt-0 text-4xl md:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400'>Master this Course</h1>
