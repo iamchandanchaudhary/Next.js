@@ -16,7 +16,6 @@ export default function Home() {
       <TestimonialCards />
       <UpcomingEvents />
       <Instructures />
-      <Footer />
     </main>
   );
 }

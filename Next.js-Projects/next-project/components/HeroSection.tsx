@@ -16,7 +16,7 @@ function HeroSection() {
 
             <div className='p-4 relative z-10 w-full text-center flex flex-col gap-5 mt-28'>
                 <h1 className='mt-20 md:mt-0 text-4xl md:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400'>Master this Course</h1>
-                <p className='mt-4 font-normal text-base md:text-lg text-neutral-300 max-w-lg mx-auto'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui ducimus temporibus expedita a ut asperiores nobis veritatis vero laboriosam eius. Laudantium expedita quisquam nulla fugit dolorum temporibus. Ducimus, ipsam laborum.</p>
+                <p className='mt-4 font-normal text-base md:text-lg text-neutral-300 max-w-xl mx-auto'>Physics is a fundamental course that explores the basic laws governing nature and the universe. It helps students understand concepts such as motion, force, energy, matter, electricity.</p>
 
                 <div>
                     <button className='mt-4'>
