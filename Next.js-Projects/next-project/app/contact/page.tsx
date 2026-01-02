@@ -1,15 +1,18 @@
 "use client";
 import React from "react";
 import { Meteors } from "@/components/ui/meteors";
+import { BackgroundBeams } from "@/components/ui/background-beams";
 
 function Contact() {
   return (
-    <div className="min-h-screen bg-black py-12 pt-40 mb-16">
+    <div className="min-h-screen bg-black py-12 pt-40 pb-16">
+
+      <BackgroundBeams />
+
       <h1 className="text-lg md:text-7xl text-center font-sans font-bold mb-4 text-white">Contact Us</h1>
       <p className='text-center text-gray-400 max-w-lg mx-auto'>We're here to help with any questions about out courses, program or events. Reach out and let us know how we can assist you in success journey.</p>
 
-      <Meteors number={400} />
-
+      {/* <Meteors number={400} /> */}
       <form
         action=""
         className="mx-auto flex flex-col justify-start items-center mt-4 gap-4 w-2xl"

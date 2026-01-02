@@ -1,14 +1,23 @@
 "use client";
-
 import React from "react";
+
 import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
+import { BackgroundBeams } from "@/components/ui/background-beams";
 
 import courseData from "@/data/courses.json";
 
 function Courses() {
   return (
-    <div className="min-h-screen bg-black py-12 pt-44">
-      <h1 className="text-lg md:text-7xl text-center font-sans font-bold mb-4 text-white">All Courses ({courseData.courses.length}) </h1>
+    <div className="min-h-screen bg-black py-12 pt-40">
+      <BackgroundBeams />
+
+      <h1
+        className="text-lg md:text-7xl text-center font-sans font-bold mb-4 text-white"
+      >
+        <span className="mr-4 bg-clip-text bg-no-repeat text-transparent bg-gradient-to-r from-purple-500 via-violet-500 to-pink-500 [text-shadow:0_0_rgba(0,0,0,0.1)]">All Courses</span>
+        
+        ({courseData.courses.length})
+      </h1>
 
       <div className="flex flex-wrap justify-center gap-x-10">
 
@@ -60,6 +69,7 @@ function Courses() {
         ))}
 
       </div>
+
     </div>
   )
 }
