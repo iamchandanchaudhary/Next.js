@@ -10,7 +10,7 @@ function Courses() {
     <div className="min-h-screen bg-black py-12 pt-44">
       <h1 className="text-lg md:text-7xl text-center font-sans font-bold mb-4 text-white">All Courses ({courseData.courses.length}) </h1>
 
-      <div className="flex flex-wrap justify-center">
+      <div className="flex flex-wrap justify-center gap-10">
 
         {courseData.courses.map((course) => (
           <CardContainer className="inter-var m-4">
@@ -34,7 +34,7 @@ function Courses() {
                   height="1000"
                   width="1000"
                   className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
-                  alt="thumbnail"
+                  alt={course.courseName}
                 />
               </CardItem>
               <div className="flex justify-between items-center mt-20">
@@ -52,7 +52,7 @@ function Courses() {
                   as="button"
                   className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
                 >
-                  Sign up
+                  Buy now
                 </CardItem>
               </div>
             </CardBody>
