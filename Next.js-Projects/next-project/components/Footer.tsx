@@ -45,7 +45,7 @@ function Footer() {
 
             </div>
 
-            <p className='text-center pt-8'>© 2025 Physics Course. All rights reserved.</p>
+            <p className='text-center pt-8'>© 2025-26 Physics Course. All rights reserved.</p>
 
         </footer>
     )
