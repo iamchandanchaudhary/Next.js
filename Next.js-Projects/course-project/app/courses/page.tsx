@@ -1,10 +1,15 @@
-"use client";
+// "use client";
 import React from "react";
 
 import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
 import { BackgroundBeams } from "@/components/ui/background-beams";
 
 import courseData from "@/data/courses.json";
+
+export const metadata = {
+  title: "Courses",
+  description: "This is Course Page",
+};
 
 function Courses() {
   return (

@@ -1,7 +1,12 @@
-"use client";
+// "use client";
 import React from "react";
 import { Meteors } from "@/components/ui/meteors";
 import { BackgroundBeams } from "@/components/ui/background-beams";
+
+export const metadata = {
+  title: "Contact",
+  description: "This is Contact Page",
+};
 
 function Contact() {
   return (
