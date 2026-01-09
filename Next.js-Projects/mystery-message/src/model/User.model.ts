@@ -1,5 +1,5 @@
 // import { Schema } from "inspector/promises";
-import mongoose, {Schema, Document, trusted} from "mongoose";
+import mongoose, {Schema, Document} from "mongoose";
 
 export interface Message extends Document{
     content: string;
@@ -65,4 +65,6 @@ const UserSchema: Schema<User> = new Schema({
     messages: [MessageSchema]
 })
 
-const userModel = (mongoose.models.User as mongoose.Model<User>) ||  mongoose.model<User>("User", UserSchema);
+const UserModel = (mongoose.models.User as mongoose.Model<User>) ||  mongoose.model<User>("User", UserSchema);
+
+export default UserModel;
