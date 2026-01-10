@@ -1,26 +1,17 @@
-"use client" // ==> It will allow us to run our next app on client side but can't show server side details
-// because next.js is by default run on server side
-import { useState, useEffect } from "react";
-// import fs from "fs/promises";
+import ClientFile from "@/components/ClientFile";
+import fs from "fs/promises";
 
 export default function Home() {
 
-  const [count, setCount] = useState(0);
-  console.log("Hello Chandan");
-
-  // let a = fs.readFile(".gitignore");
-  // a.then((e) => console.log(e.toString())) // ==> it was a server side data can't run on client side
+  let a = fs.readFile(".gitignore");
+  a.then((e) => console.log(e.toString())) // ==> it was a server side data
 
   return (
     <div className="p-4">
-      <p>Total: {count}</p>
+      <h1 className="text-lg font-semibold">Client & Server Component</h1>
 
-      <button
-        onClick={() => setCount(count + 1)}
-        className="bg-white hover:bg-white/80 rounded text-black px-2 py-0.5"
-      >
-        Click me
-      </button>
+      {/* You can run your client side component in Your Server Side component by placing them into different components */}
+      <ClientFile />
     </div>
   );
 }
