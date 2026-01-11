@@ -23,3 +23,10 @@ npx create-next-app@latest
 cd my-app
 npm run dev
 ```
+
+## Important Points
+  - **Next.js:** Next.js is Framework of React.js to bulid Full-Stck Application.
+  - **Route:** Next.js Contain inbuild routing function & the route will creaded by only placing it on the folder with the name `page.tsx`. Next.js will automatic detect it.
+  - **"use client":** Next.js is by default run on server side & `"use client"` will allow us to run our next app on client side without showing server side details. You can run your client side component in Your Server Side component by placing them into different components
+  - **ZOD Package:**- It is used in Next.js to Create Schema Validation (Zod is a TypeScript-first validation library. Define a schema and parse some data with it. You'll get back a strongly typed, validated result.)
+  - In Next.js Database Server didn't run always, It run on the basis of demand. That's why you have to create a check if the database is not created create it & if created so start the database.

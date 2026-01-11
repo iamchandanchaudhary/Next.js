@@ -1,4 +1,4 @@
-"use client" // ==> It will allow us to run our next app on client side but can't show server side details
+"use client" // ==> It will allow us to run our next app on client side but without showing server side details
 // because next.js is by default run on server side
 import { useState, useEffect } from "react";
 // import fs from "fs/promises";
