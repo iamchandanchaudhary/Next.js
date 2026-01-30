@@ -24,7 +24,7 @@ export default function Home() {
             ))}
           </div>
 
-          <Link href={"/"} className="bg-black rounded px-4 py-2">Previous Popup</Link>
+          <Link href={"/"} className="bg-black rounded px-4 py-2 text-white">Home</Link>
 
         </div>
       </div>
